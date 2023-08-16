@@ -1,4 +1,4 @@
-FROM nginx:1.10
+FROM nginx:1.25.1
 MAINTAINER https://github.com/Jeff-Tian
 
 RUN rm /etc/nginx/conf.d/default.conf
